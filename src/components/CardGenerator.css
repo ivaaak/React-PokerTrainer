@@ -9,7 +9,10 @@
 .cardContainer {
     display: flex;
     justify-content: center;
-    gap: 20px; /* Adjust the gap between poker elements as needed */
+    gap: 20px;
+}
+.firstTwoCardsContainer {
+    margin-right: 40px;
 }
 
 .button-container {
@@ -25,8 +28,30 @@
     height: auto;
     animation: fadeIn 1s ease-in-out;
     margin-bottom: 20px;
-  }
-  
-  .generate-button:hover {
+}
+
+.generate-button:hover {
     animation: fadeOut 1s ease-in-out;
-  }
+}
+
+.raiseButton {
+    background-color: darkgreen;
+}
+.callButton {
+    background-color: rgb(0, 130, 173);
+}
+.foldButton {
+    background-color: rgb(139, 0, 0);
+}
+
+.firstTwoCards {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; /* Adjust as needed */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 16px 30px 0 rgba(0,0,0,0.19);
+}
+
+.thirdToFifthCards {
+    /* Styles for the third through fifth cards */
+    border: 2px solid blue; /* Example style */
+}

@@ -1,5 +1,4 @@
 import './App.css'
-import CardGenerator from './components/CardGenerator'
 import ThreeColumnComponent from './components/ThreeColumnComponent';
 
 function App() {
@@ -15,9 +14,6 @@ function App() {
 
       <ThreeColumnComponent>
       </ThreeColumnComponent>
-
-
-      <CardGenerator></CardGenerator>
     </div>
   )
 }
