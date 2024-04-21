@@ -1,7 +1,6 @@
 import { useState } from 'react';
-import './ThreeColumnComponents.css'
-import './TrainingOptions.css'
 import HintModal from './HintModal';
+import './ThreeColumnComponents.css'
 
 type Mode = 'Preflop' | 'Flop' | 'River' | 'Turn';
 type PlayStyle = 'Tight Passive' | 'Loose Passive' | 'Tight Aggressive (TAG)' | 'Loose Aggressive (LAG)';
