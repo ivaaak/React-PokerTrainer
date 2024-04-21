@@ -1,0 +1,32 @@
+.cardGenerator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* height: 20vh; Adjust as needed */
+}
+
+.cardContainer {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Adjust the gap between poker elements as needed */
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.generate-button {
+    cursor: pointer;
+    width: 200px;
+    height: auto;
+    animation: fadeIn 1s ease-in-out;
+    margin-bottom: 20px;
+  }
+  
+  .generate-button:hover {
+    animation: fadeOut 1s ease-in-out;
+  }

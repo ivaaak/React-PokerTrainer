@@ -1,0 +1,15 @@
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; /* Adjusted to make the modal almost the whole screen */
+    height: 100%; /* Adjusted to make the modal almost the whole screen */
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    border-radius: 10px;
+}

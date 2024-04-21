@@ -1,0 +1,28 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.icon-text-container {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-bottom: 2rem;
+}
+
+.icon-text-container img {
+   width: 75px;
+   height: auto;
+   margin-right: 10px;
+}
+
+.icon-text-container h1 {
+   margin: 0;
+   font-size: 48px;
+}
+ 
+.chartHintBtn {
+   position: relative;
+}

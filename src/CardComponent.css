@@ -1,0 +1,64 @@
+.poker {
+    width: 71px;
+    height: 96px;
+    background-image: url(http://taichunmin.idv.tw/images/cards_jfitz.png);
+    background-clip: border-box;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    border-radius: 2px;
+}
+
+.poker-ca { background-position: -1px 0px; }
+.poker-c2 { background-position: -73px 0px; }
+.poker-c3 { background-position: -145px 0px; }
+.poker-c4 { background-position: -217px 0px; }
+.poker-c5 { background-position: -289px 0px; }
+.poker-c6 { background-position: -361px 0px; }
+.poker-c7 { background-position: -433px 0px; }
+.poker-c8 { background-position: -505px 0px; }
+.poker-c9 { background-position: -577px 0px; }
+.poker-ct { background-position: -649px 0px; }
+.poker-cj { background-position: -721px 0px; }
+.poker-cq { background-position: -793px 0px; }
+.poker-ck { background-position: -865px 0px; }
+.poker-sa { background-position: -1px -96px; }
+.poker-s2 { background-position: -73px -96px; }
+.poker-s3 { background-position: -145px -96px; }
+.poker-s4 { background-position: -217px -96px; }
+.poker-s5 { background-position: -289px -96px; }
+.poker-s6 { background-position: -361px -96px; }
+.poker-s7 { background-position: -433px -96px; }
+.poker-s8 { background-position: -505px -96px; }
+.poker-s9 { background-position: -577px -96px; }
+.poker-st { background-position: -649px -96px; }
+.poker-sj { background-position: -721px -96px; }
+.poker-sq { background-position: -793px -96px; }
+.poker-sk { background-position: -865px -96px; }
+.poker-ha { background-position: -1px -192px; }
+.poker-h2 { background-position: -73px -192px; }
+.poker-h3 { background-position: -145px -192px; }
+.poker-h4 { background-position: -217px -192px; }
+.poker-h5 { background-position: -289px -192px; }
+.poker-h6 { background-position: -361px -192px; }
+.poker-h7 { background-position: -433px -192px; }
+.poker-h8 { background-position: -505px -192px; }
+.poker-h9 { background-position: -577px -192px; }
+.poker-ht { background-position: -649px -192px; }
+.poker-hj { background-position: -721px -192px; }
+.poker-hq { background-position: -793px -192px; }
+.poker-hk { background-position: -865px -192px; }
+.poker-da { background-position: -1px -288px; }
+.poker-d2 { background-position: -73px -288px; }
+.poker-d3 { background-position: -145px -288px; }
+.poker-d4 { background-position: -217px -288px; }
+.poker-d5 { background-position: -289px -288px; }
+.poker-d6 { background-position: -361px -288px; }
+.poker-d7 { background-position: -433px -288px; }
+.poker-d8 { background-position: -505px -288px; }
+.poker-d9 { background-position: -577px -288px; }
+.poker-dt { background-position: -649px -288px; }
+.poker-dj { background-position: -721px -288px; }
+.poker-dq { background-position: -793px -288px; }
+.poker-dk { background-position: -865px -288px; }
+.poker-back { background-image: url(http://taichunmin.idv.tw/images/card_jfitz_back.png); }

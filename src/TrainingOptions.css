@@ -1,0 +1,45 @@
+/* General styles for the dropdowns */
+.TrainingOptions select {
+    font-family: Arial, sans-serif; /* Use a clean, readable font */
+    font-size: 16px; /* Adjust font size as needed */
+    padding: 8px 12px; /* Add some padding for better appearance */
+    border: 1px solid #ccc; /* Light border for separation */
+    background-color: #fff; /* White background */
+    color: #333; /* Dark text for contrast */
+    width: 100%; /* Full width for responsiveness */
+    max-width: 300px; /* Maximum width to prevent stretching */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    margin-bottom: 10px; /* Space between dropdowns */
+    appearance: none; /* Remove default browser styling */
+    -webkit-appearance: none; /* For Safari */
+    -moz-appearance: none; /* For Firefox */
+    background: url('data:image/svg+xml;utf8,<svg fill="none" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/><path d="M0 0h24v24H0z" fill="none"/></svg>') no-repeat right .75rem center/12px 12px; /* Custom dropdown arrow */
+    background-color: #fff; /* Ensure the background is white */
+}
+
+/* Remove default dropdown arrow in Firefox */
+.TrainingOptions select::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+/* Remove default dropdown arrow in IE */
+.TrainingOptions select::-ms-expand {
+    display: none;
+}
+
+/* Style for the container */
+.TrainingOptions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px; /* Space between dropdowns */
+}
+
+/* Style for the container */
+.TrainingOptions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
