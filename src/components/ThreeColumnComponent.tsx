@@ -51,8 +51,9 @@ export const ThreeColumnComponent = () => {
 
                 <div className="column">
                     <h3>Specific Hint Charts</h3>
+                    <br></br><br></br>
                     <img onClick={toggleModal} src="https://images.squarespace-cdn.com/content/v1/58a75073e6f2e1c1d5b36630/1488404934111-86PZV6FWC3IDNI37V94Z/DS.png" alt="DS.png" />
-                    <p>DeepStack considers a reduced number of actions, allowing it to play at conventional human speeds. The system re-solves games in under five seconds using a simple gaming laptop with an Nvidia GPU.</p>
+                    <p>Different charts based on the selected playstyle which show a ranking of all possible hand combinations - a good reference point for building intuition about different hands and positions.</p>
                 </div>
 
                 <HintModal isOpen={isModalOpen} onClose={toggleModal}>

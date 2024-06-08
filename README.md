@@ -1,30 +1,26 @@
-# React + TypeScript + Vite
+# React + TypeScript + Vite - Poker Hands Theory
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Poker Hands Theory** This is a simple React application designed to help users gain theoretical knowledge about poker hands. Whether you're a beginner or looking to brush up on your poker hand rankings, this app provides a straightforward and interactive way to learn.
+## Screenshots: 
 
-Currently, two official plugins are available:
+  <img src="https://raw.githubusercontent.com/ivaaak/React-PokerTrainer/main/public/screenshots/1.png"></img> 
+  <img src="https://raw.githubusercontent.com/ivaaak/React-PokerTrainer/main/public/screenshots/2.png"></img> 
+  <img src="https://raw.githubusercontent.com/ivaaak/React-PokerTrainer/main/public/screenshots/3.png"></img> 
+  <img src="https://raw.githubusercontent.com/ivaaak/React-PokerTrainer/main/public/screenshots/4.png"></img> 
+  <img src="https://raw.githubusercontent.com/ivaaak/React-PokerTrainer/main/public/screenshots/5.png"></img> 
+ 
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-   **Interactive Learning:** Explore different poker hands and understand their rankings and the optimal decisions.
+-   **Visual Aids:** Clear and concise visual representations of each hand.
+-   **Different Modes:** Preflop / Flop / River / Turn
+-   **Different  Playstyles:** Tight Passive / Loose Passive / Tight Aggressive / Loose Aggressive
+-   **Playstyle Charts:** Charts based on the selected playstyle - good for getting a sense of optimal moves
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Getting Started
+  **Installation:**
+    `npm install` 
+  **Start the development server:**
+    `npm run dev` 
+ **Open your browser and navigate to:**
+    `http://localhost:5173`
