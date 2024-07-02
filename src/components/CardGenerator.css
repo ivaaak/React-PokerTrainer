@@ -3,7 +3,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* height: 20vh; Adjust as needed */
 }
 
 .cardContainer {
@@ -11,6 +10,7 @@
     justify-content: center;
     gap: 20px;
 }
+
 .firstTwoCardsContainer {
     margin-right: 40px;
 }
@@ -37,9 +37,11 @@
 .raiseButton {
     background-color: darkgreen;
 }
+
 .callButton {
     background-color: rgb(0, 130, 173);
 }
+
 .foldButton {
     background-color: rgb(139, 0, 0);
 }
@@ -47,11 +49,57 @@
 .firstTwoCards {
     display: flex;
     justify-content: center;
-    margin-bottom: 20px; /* Adjust as needed */
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 16px 30px 0 rgba(0,0,0,0.19);
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 16px 30px 0 rgba(0, 0, 0, 0.19);
 }
 
 .thirdToFifthCards {
-    /* Styles for the third through fifth cards */
-    border: 2px solid blue; /* Example style */
+    border: 2px solid blue;
+}
+
+
+@keyframes correctAnimation {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+        background-color: #4CAF50;
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes incorrectAnimation {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+        background-color: #F44336;
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.cardContainer.correct {
+    animation: correctAnimation 1s ease;
+}
+
+.cardContainer.incorrect {
+    animation: incorrectAnimation 1s ease;
+}
+
+.button-container button.correct {
+    animation: correctAnimation 1s ease;
+}
+
+.button-container button.incorrect {
+    animation: incorrectAnimation 1s ease;
 }

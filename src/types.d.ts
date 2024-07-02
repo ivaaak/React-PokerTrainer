@@ -1,6 +1,6 @@
 type Mode = 'Preflop' | 'Flop' | 'River' | 'Turn';
 
-type PlayStyle = 'Tight Passive' | 'Loose Passive' | 'Tight Aggressive (TAG)' | 'Loose Aggressive (LAG)';
+type PlayStyle = 'tightPassive' | 'loosePassive' | 'tightAggressive' | 'looseAggressive';
 
 type Card = {
     suit: string;

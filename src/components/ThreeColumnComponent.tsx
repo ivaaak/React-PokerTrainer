@@ -6,7 +6,7 @@ import CardGenerator from './CardGenerator';
 export const ThreeColumnComponent = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [mode, setMode] = useState<Mode>('Preflop');
-    const [playStyle, setPlayStyle] = useState<PlayStyle>('Tight Passive');
+    const [playStyle, setPlayStyle] = useState<PlayStyle>('tightPassive');
 
     const handleModeChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
         setMode(event.target.value as Mode);
@@ -39,10 +39,10 @@ export const ThreeColumnComponent = () => {
                 <div className="column TrainingOptions">
                     <h3>Selected Playstyle:
                         <select id="playStyleSelect" value={playStyle} onChange={handlePlayStyleChange}>
-                            <option value="Tight Passive">Tight Passive</option>
-                            <option value="Loose Passive">Loose Passive</option>
-                            <option value="Tight Aggressive (TAG)">Tight Aggressive (TAG)</option>
-                            <option value="Loose Aggressive (LAG)">Loose Aggressive (LAG)</option>
+                            <option value="tightPassive">Tight Passive</option>
+                            <option value="loosePassive">Loose Passive</option>
+                            <option value="tightAggressive">Tight Aggressive (TAG)</option>
+                            <option value="looseAggressive">Loose Aggressive (LAG)</option>
                         </select>
                     </h3>
                     <img src="https://images.squarespace-cdn.com/content/v1/58a75073e6f2e1c1d5b36630/1488404924371-JUI7YA16MZFAMUFYPL4T/DS.png" alt="DS.png" />
@@ -60,7 +60,7 @@ export const ThreeColumnComponent = () => {
                     <img src="https://pokertrainer.se/wp-content/uploads/2022/12/Call-BB-vs-BTN-768x682.png" alt="Chart Hints" />
                 </HintModal>
             </div>
-            <CardGenerator mode={mode} ></CardGenerator>
+            <CardGenerator mode={mode} playstyle={playStyle}></CardGenerator>
         </>
 
     );
